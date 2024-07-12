@@ -5,7 +5,7 @@ Primer Paso: Clonar el repositorio
 ```
 git clone https://github.com/ErickArmijos/Pokedex.git
 ```
-Segundo Paso: Instalar las dependecias necesarias usando el el sistema de gestión de paquetes npm
+Segundo Paso: Dentro de esta carpeta instalar las dependecias necesarias usando el el sistema de gestión de paquetes npm
 ```
 npm install
 ```
