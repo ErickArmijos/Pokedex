@@ -1,0 +1,105 @@
+.modalPokemonContainer{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    place-items: center;
+    transition: all 0.5s;
+    z-index: 1000;
+}
+
+.modalBody{
+    background-color: rgb(233, 233, 233);
+    width: 40%;
+    min-width: 400px;
+    border-radius: 10px;
+    position: absolute;
+    padding: 1rem;
+    display: flex;
+}
+
+.imageModal{
+    display: grid;
+    place-items: center;
+}
+
+
+.imageDetailModal{
+    width: 250px;
+    aspect-ratio: 8/10;
+}
+.containerType{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;  
+    margin: 0;
+    
+}
+.typeModalPokemon{
+    margin: 5px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: #5b257a;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7); 
+}
+.nameModel{
+    color: black;
+    text-transform: capitalize;
+    margin: 0 3rem;
+    
+}
+.abilitieModalPokemon{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: #1772da;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7); 
+}
+
+  
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 10px; 
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); 
+  }
+}
+
+.statSquare {
+  width: 70%;
+  height: 80px; 
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7); 
+}
+
+.statName {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+
+.statValue {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #007bff;
+}
