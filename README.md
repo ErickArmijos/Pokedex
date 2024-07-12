@@ -19,3 +19,14 @@ Abrir la siguiente dirección en el navegador
 ```
 http://localhost:5173/
 ```
+## Vista Proyecto
+- Pantalla de inicio
+![image](https://github.com/user-attachments/assets/a8a11d86-ccfe-4d4c-875f-a07c76d01be8)
+- Ventana modal de cada pokemon
+![image](https://github.com/user-attachments/assets/66514684-023b-4d16-a784-69476cdd3cdb)
+- Modo oscuro
+![image](https://github.com/user-attachments/assets/fa594483-3652-4c7f-8a84-79eef78784e5)
+
+
+
+
